@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div id="header">
-      <nav class="navbar navbar-expand navbar-light bg-light">
       <a class="button">
       <router-link to="/" >トップ</router-link></a>
       <a class="button">
@@ -12,7 +11,6 @@
       <router-link to="/strength" >自分の強み</router-link></a>
       <a class="button">
       <router-link to="/weakness" >自分の弱み</router-link></a>
-      </nav>
     </div>
     <transition mode="out-in">
     <router-view></router-view>
@@ -45,10 +43,6 @@ export default {
 </style>
 
 <style>
-navbar navbar-expand navbar-light bg-light {
-  background: Transparent;
-}
-
 body {
   margin: 0;
 }
